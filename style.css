@@ -40,8 +40,8 @@ a {
 .hero {
     display: flex;
     align-items: center;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
 .hero h1 {
@@ -151,4 +151,50 @@ a {
     text-align: end;
     font-size: 25px;
     color: #1f2937;
+}
+
+.bottom {
+    padding: 100px;
+}
+
+.call-to-action { 
+    background-color: #3882f6;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 40px 0;
+}
+
+.call-to-action p {
+    margin: 0px;
+    color: #e5e7eb;
+}
+
+.call-to-action h1 {
+    margin: 0px;
+    color: white;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 100px;
 }
